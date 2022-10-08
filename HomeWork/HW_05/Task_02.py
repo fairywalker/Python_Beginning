@@ -78,19 +78,19 @@ def check_file(name):
 
 
 def inputs():
-    # file_text = input("Enter the name of the file with the text:\n")
-    # file_record = input("Enter the file name to record:\n")
-    # file_decode = input("Enter the name of the file to decode:\n")
+    file_text = input("Enter the name of the file with the text:\n")
+    file_record = input("Enter the file name to record:\n")
+    file_decode = input("Enter the name of the file to decode:\n")
 
-    print("Enter the name of the file with the text:")
-    file_text = 'text_words.txt'
-    print(file_text)
-    print("Enter the file name to record:")
-    file_record = 'text_code_words.txt'
-    print(file_record)
-    print("Enter the name of the file to decode:")
-    file_decode = 'text_decode_words.txt'
-    print(file_decode)
+    # print("Enter the name of the file with the text:")
+    # file_text = 'text_words.txt'
+    # print(file_text)
+    # print("Enter the file name to record:")
+    # file_record = 'text_code_words.txt'
+    # print(file_record)
+    # print("Enter the name of the file to decode:")
+    # file_decode = 'text_decode_words.txt'
+    # print(file_decode)
 
     dict_files = {
         "file_text": file_text,
